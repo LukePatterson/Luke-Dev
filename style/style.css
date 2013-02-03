@@ -26,15 +26,15 @@
 }
 
 h2 {
-		color: #fff;
+		color: #000;
         
         font: 50px 'BazarMedium';
         letter-spacing: 10px
 }
 
 body{
-	background-color: #1b1b1b;
-			  color: #fff;
+	background-color: #f4f4f4;
+			  color: #000;
 		  font: 16px/1.8 sans-serif;
 }
 
