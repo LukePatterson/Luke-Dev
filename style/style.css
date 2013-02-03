@@ -25,6 +25,12 @@
     *zoom: 1;
 }
 
+h2 {
+		color: #fff;
+        
+        font: 50px 'BazarMedium';
+        letter-spacing: 10px
+}
 
 body{
 	background-color: #1b1b1b;
