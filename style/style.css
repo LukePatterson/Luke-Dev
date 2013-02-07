@@ -27,8 +27,7 @@
 
 h2 {
 		color: #000;
-        
-        font: 50px 'BazarMedium';
+        font: 28px 'BazarMedium';
         letter-spacing: 10px
 }
 
@@ -54,34 +53,52 @@ header{
 }
 
 
-		article {
-			background-color: #fff;
-			border-left: 1px solid red;			
-			border-top: 3px solid red;
-			box-shadow: 5px 5px 5px #888;
-			display: block;
-			margin-right: 200px;
-			margin-top: 10px;
-			padding: 20px;
-			padding-top: 0px;
-			width: 560px;
-		}
+article {
+	background-color: #fff;
+	border-bottom: 3px solid red;			
+	border-top: 3px solid red;
+	box-shadow: 5px 5px 5px #888;
+	display: block;
+	margin-right: 200px;
+	margin-top: 10px;
+	padding: 20px;
+	padding-top: 0px;
+	width: 560px;
+}
 
 aside {
 
 	float: right;			
-	margin-top: -10px;
-	width: 320px;
+	margin-top: -px;
+	width: 335px;
 }
+
 
 
 #aboutme , #recentproject {
 		background-color: #fff;
 			border-top: 3px solid red;
-			border-right: 1px solid red;
+			border-bottom:3px solid red;
 			box-shadow: 5px 5px 5px #888;
 			margin-top: 10px;
 			padding: 10px;	
 			padding-top: 0;		
 }
 
+#hero {
+	margin-top: 5px;
+}
+
+#logo {
+	float: left;
+}
+
+#mainmenu ul li {
+	display: inline;
+	float: right;;
+	padding: 10px;
+}
+
+#mainmenu ul li a {
+	color: #fff;
+}
