@@ -68,8 +68,7 @@ header{
 
 aside {
 	background-color: #fff;
-			border: 1px solid black;
-			box-shadow: 5px 5px 5px #888;
+
 	float: right;			
 margin-top: 0px;
 			padding: 10px;
@@ -77,7 +76,32 @@ margin-top: 0px;
 	width: 320px;
 }
 
+aside:nth-child(2) {
+	
+}
+
 		.container {
 			width: 960px;
 			margin:0 auto;
 		}
+
+
+#aboutme {
+		background-color: #fff;
+			border: 1px solid black;
+			box-shadow: 5px 5px 5px #888;
+}
+
+#aboutme {
+		background-color: #fff;
+			border: 1px solid black;
+			box-shadow: 5px 5px 5px #888;
+}
+
+#recentproject {
+		background-color: #fff;
+			border: 1px solid black;
+			box-shadow: 5px 5px 5px #888;
+			margin-top: 10px;
+}
+
