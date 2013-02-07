@@ -56,7 +56,8 @@ header{
 
 		article {
 			background-color: #fff;
-			border: 1px solid black;
+			border-left: 1px solid red;			
+			border-top: 3px solid red;
 			box-shadow: 5px 5px 5px #888;
 			display: block;
 			margin-right: 200px;
@@ -69,38 +70,18 @@ header{
 aside {
 
 	float: right;			
-margin-top: 0px;
-			padding: 10px;
-			padding-top: 0px;
+	margin-top: -10px;
 	width: 320px;
 }
 
-aside:nth-child(2) {
-	
-}
 
-		.container {
-			width: 960px;
-			margin:0 auto;
-		}
-
-
-#aboutme {
+#aboutme , #recentproject {
 		background-color: #fff;
-			border: 1px solid black;
-			box-shadow: 5px 5px 5px #888;
-}
-
-#aboutme {
-		background-color: #fff;
-			border: 1px solid black;
-			box-shadow: 5px 5px 5px #888;
-}
-
-#recentproject {
-		background-color: #fff;
-			border: 1px solid black;
+			border-top: 3px solid red;
+			border-right: 1px solid red;
 			box-shadow: 5px 5px 5px #888;
 			margin-top: 10px;
+			padding: 10px;	
+			padding-top: 0;		
 }
 
